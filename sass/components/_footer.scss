@@ -1,0 +1,11 @@
+footer {
+    background-color:$background-second-color;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+& .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+}

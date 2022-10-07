@@ -1,0 +1,62 @@
+.sections__three {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: $bgr-three;
+}
+
+.sections__title {
+    color: $title-color;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.profession {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-left: 0;
+    gap: 30px;
+
+
+.profession__link {
+    background-color: $primary-accent-color;
+    box-shadow: $card-shadow;
+    padding: 0;
+    margin-bottom: 0;
+
+}
+}
+
+.profession__photo {
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.profession__title {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: $title-color;
+}
+
+.profession__text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+

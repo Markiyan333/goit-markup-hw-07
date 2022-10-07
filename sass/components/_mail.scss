@@ -1,0 +1,39 @@
+.mail {
+    margin-left: 93px;
+
+&__title {
+    color: $primary-accent-color;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+}
+
+.mail-list {
+    display: flex;
+    transition: $speed-transition;
+
+}
+
+.mail-list input {
+    color: $accent-color;
+
+&::placeholder {
+    color: $primary-text-color;
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+}
+
+.mail-list__id {
+    width: 358px;
+    height: 50px;
+    padding: 0;
+
+    background-color: $background-second-color;
+    border: 1px solid $footer-mail-list-bgr;
+    filter: $drop-shadow;
+    border-radius: 4px;
+}

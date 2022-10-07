@@ -1,0 +1,20 @@
+
+.site-nav__social {
+    display: flex;
+    align-items: center;
+
+    color: $primary-text-color;
+    font-weight: 500;
+    font-size: 14px;
+    gap: 10px;
+    line-height: 1.14;
+    text-decoration: none;
+    fill: $primary-text-color;
+    transition: $speed-transition;
+
+&:hover,
+&:focus {
+    color: $accent-color;
+    fill: $accent-color;
+}
+}

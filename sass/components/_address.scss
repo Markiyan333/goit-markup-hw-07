@@ -1,0 +1,40 @@
+.address {
+    margin-right: 70px;
+
+&__page {
+    display: contents;
+    font-style: normal;
+}
+}
+
+.address__logo {
+    color: $primary-accent-color;
+    font-family: $fonts-ralevey, sans-serif;
+
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+}
+
+.address__gps {
+    color: $primary-accent-color;
+    font-size: 14px;
+    line-height: 1.7px;
+    text-decoration: none;
+}
+
+
+.address__link {
+    color: $footer-adress-color;
+
+    font-size: 14px;
+    line-height: 1.7px;
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 9px;
+
+&:hover,
+&:focus {
+    color: $accent-color;
+}
+}

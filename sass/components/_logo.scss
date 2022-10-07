@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.webstudio {
+    color: $accent-color;
+    font-family: Raleway, sans-serif;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+
+
+    &__logo {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    color: $title-color;
+    font-family: Raleway, sans-serif;
+
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;}
+}

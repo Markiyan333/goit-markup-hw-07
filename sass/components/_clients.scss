@@ -1,0 +1,29 @@
+.clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+
+&__link:hover svg,
+&__link:focus svg {
+    border-color: $accent-color;
+    fill: $accent-color;
+}
+}
+
+.clients__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+
+    font-size: 0;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    padding: 16px 32px;
+    fill: $gray-icon-color;
+    transition: $speed-transition;
+}

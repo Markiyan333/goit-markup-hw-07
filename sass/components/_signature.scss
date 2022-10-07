@@ -1,0 +1,39 @@
+.signature {
+    position: relative;
+
+&__icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 13px;
+    right: 28px;
+    bottom: 13px;
+    fill: $primary-accent-color;
+}
+}
+
+.signature__button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 1.9;
+    padding-left: 28px;
+    margin-left: 12px;
+
+    color: $primary-accent-color;
+    background-color: $accent-color;
+
+    border-radius: 4px;
+    border: 1px solid transparent;
+
+&:hover,
+&:focus {
+    box-shadow: $box-shadow;
+    transition: $speed-transition;
+}
+}
+
