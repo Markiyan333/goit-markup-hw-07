@@ -29,7 +29,7 @@ $fonts-ralevey: Raleway;
 html {
     box-sizing: border-box;
 }
-
+@media (min-width: 320px ) {
 body {
     background: $primary-accent-color;
     color: $primary-text-color;
@@ -37,7 +37,7 @@ body {
     letter-spacing: 0.03em;
     font-size: 16px;
     line-height: 1.9;
-}
+}}
 
 header {
     background-color: $primary-accent-color;
@@ -85,6 +85,8 @@ button {
     outline: none;
 
 }
+
+
 
 .container {
     padding-left: 15px;

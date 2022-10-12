@@ -2,15 +2,16 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  background: #FFFFFF;
-  color: #757575;
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
-  font-size: 16px;
-  line-height: 1.9;
+@media (min-width: 320px) {
+  body {
+    background: #FFFFFF;
+    color: #757575;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 1.9;
+  }
 }
-
 header {
   background-color: #FFFFFF;
   border-bottom: 1px solid #ECECEC;
